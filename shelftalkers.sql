@@ -1,0 +1,20 @@
+CREATE TABLE `shelftalkers` (
+  `itemupc` varchar(12) NOT NULL,
+  `itemno` varchar(45) DEFAULT NULL,
+  `itemdesc` varchar(45) DEFAULT NULL,
+  `overline` varchar(200) DEFAULT NULL,
+  `item` varchar(200) DEFAULT NULL,
+  `saleprice` varchar(45) DEFAULT NULL,
+  `size` varchar(45) DEFAULT NULL,
+  `WRSize` varchar(45) DEFAULT NULL,
+  `unitprice` varchar(45) DEFAULT NULL,
+  `popular` varchar(45) DEFAULT NULL,
+  `catdesc` varchar(45) DEFAULT NULL,
+  `rtcomm` varchar(45) DEFAULT NULL,
+  `clipless` varchar(100) DEFAULT NULL,
+  `picture1` varchar(45) DEFAULT NULL,
+  `picture2` varchar(45) DEFAULT NULL,
+  `originalsort` int(11) DEFAULT NULL,
+  `deposit` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`itemupc`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
