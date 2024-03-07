@@ -14,7 +14,11 @@ CREATE TABLE `shelftalkers` (
   `clipless` varchar(100) DEFAULT NULL,
   `picture1` varchar(45) DEFAULT NULL,
   `picture2` varchar(45) DEFAULT NULL,
-  `originalsort` int(11) DEFAULT NULL,
   `deposit` varchar(100) DEFAULT NULL,
+  `CouponMult` varchar(45) DEFAULT NULL,
+  `CouponValue` varchar(45) DEFAULT NULL,
+  `PromoText` varchar(45) DEFAULT NULL,
+  `FinalPrice` varchar(45) DEFAULT NULL,
+  `originalsort` int DEFAULT NULL,
   PRIMARY KEY (`itemupc`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

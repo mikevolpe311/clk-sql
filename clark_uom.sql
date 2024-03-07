@@ -27,7 +27,7 @@ CREATE TABLE `clarkuom` (
   `deptno` varchar(45) DEFAULT NULL,
   `coupmult` varchar(45) DEFAULT NULL,
   `coupval` varchar(45) DEFAULT NULL,
-  `order` int(11) DEFAULT NULL,
+  `order` int DEFAULT NULL,
   `coupcomm` varchar(90) DEFAULT NULL,
   PRIMARY KEY (`store_code`,`itemupc`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='store_code	itemno	itemupc	itemdesc	size	umcode	priceuom	rmult	retail	unit	cents	fac	category	smultc	sretail	enddate	catdesc	pcat	groupname	prccd	centsn	smult	rtcomm	block	adtype	deptno	coupmult	coupval';
